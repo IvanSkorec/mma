@@ -1,0 +1,42 @@
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+h3{
+    color: white;
+}
+
+#cards{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(110, 41, 41, 0.541) 0%, rgb(78, 10, 10)57%) ;
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+#ufc{
+    background: url(../img/fondo.jpg);
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+.ufc{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.ufc:hover{
+    transform: scale(1.05);
+}
+.ufc-name{
+    background-color: rgba(0,0,0,4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
