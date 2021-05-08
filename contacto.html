@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Competidores</title>
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://kit.fontawesome.com/90fcd9d321.js" crossorigin="anonymous"></script>
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/90fcd9d321.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/script.js"></script>
+    
+    </head>
 <body>
-  <!-- NAVBAR-->
+    <!-- NAVBAR-->
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -40,50 +42,45 @@
         </div>
     </div>
 </nav>
+    <!--FORMULARIO-->
+    <section class="form_wrap">
 
-    
-    <!--COMPETIDORES-->
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/curtis0blaydes0heavyweight.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> artes.marciales@martialarts.com</p>
+                <p><span class="fa fa-mobile"></span> 1127349612</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres </label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico </label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje </label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/gane0cyril0heavyweight.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/lewis0derrick0heavyweight.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </div>
+        </form>
+
+    </section>
 
 
 
-
-<!--FOOTER-->
-<footer class="bg-dark text-white py-4">
+   <!--FOOTER-->
+   <footer class="bg-dark text-white py-4">
     <div class="container">
         <nav class="row">
             <!--logo-->
@@ -128,9 +125,14 @@
     </div>
 
 </footer>
-    
 
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
