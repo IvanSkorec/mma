@@ -20,7 +20,7 @@ h3{
 
 #cards{
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(59, 48, 48, 0.541) 0%, rgb(134, 108, 108)57%) ;
+    background: black ;
     background-repeat: repeat-x;
     background-size: 75%;
     margin-top: -20px;
@@ -242,4 +242,17 @@ form.form_contact input[type="button"]:hover{
 	cursor: pointer;
 
 	float: right;
+}
+
+
+/*nosotros*/
+.fw-300{
+    font-weight: 300;
+}
+.centrar-texto{
+    text-align: center;
+    
+}
+.imagen{
+    
 }
